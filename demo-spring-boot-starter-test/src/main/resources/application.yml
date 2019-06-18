@@ -1,0 +1,4 @@
+example:
+  service:
+    enable: true
+    config: abc-des-dde,SSS-DRS-RE
