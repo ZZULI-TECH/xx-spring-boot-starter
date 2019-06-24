@@ -1,4 +1,4 @@
-package me.mingshan.spring.boot.starter;
+package me.mingshan.spring.boot.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

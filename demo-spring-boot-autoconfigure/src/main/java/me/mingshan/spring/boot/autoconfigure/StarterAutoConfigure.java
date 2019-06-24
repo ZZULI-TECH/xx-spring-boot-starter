@@ -1,4 +1,4 @@
-package me.mingshan.spring.boot.starter;
+package me.mingshan.spring.boot.autoconfigure;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

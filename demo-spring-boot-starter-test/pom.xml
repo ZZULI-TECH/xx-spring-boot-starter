@@ -33,6 +33,7 @@
     <dependency>
       <groupId>me.mingshan</groupId>
       <artifactId>demo-spring-boot-starter</artifactId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>org.yaml</groupId>

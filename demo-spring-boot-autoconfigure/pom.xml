@@ -9,9 +9,9 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>demo-spring-boot-starter</artifactId>
+  <artifactId>demo-spring-boot-autoconfigure</artifactId>
 
-  <name>demo-spring-boot-starter</name>
+  <name>demo-spring-boot-autoconfigure</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -22,14 +22,16 @@
   </properties>
 
   <dependencies>
+    <!-- Compile dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
     </dependency>
+
     <dependency>
-      <groupId>me.mingshan</groupId>
-      <artifactId>demo-spring-boot-autoconfigure</artifactId>
-      <version>${project.version}</version>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <optional>true</optional>
     </dependency>
   </dependencies>
 </project>

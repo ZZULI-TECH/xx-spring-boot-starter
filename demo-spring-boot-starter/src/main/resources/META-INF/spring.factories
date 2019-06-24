@@ -1,1 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=me.mingshan.spring.boot.starter.StarterAutoConfigure

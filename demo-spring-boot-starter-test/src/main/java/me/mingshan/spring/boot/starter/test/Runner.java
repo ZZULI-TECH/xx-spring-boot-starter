@@ -1,6 +1,6 @@
 package me.mingshan.spring.boot.starter.test;
 
-import me.mingshan.spring.boot.starter.StarterService;
+import me.mingshan.spring.boot.autoconfigure.StarterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
